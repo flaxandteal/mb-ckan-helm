@@ -36,6 +36,7 @@ plugins:
   - validation
   - oauth2provider
   - harvest
+  - medicallybame
 
   lintol:
     token: TOKEN

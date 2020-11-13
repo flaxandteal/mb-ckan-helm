@@ -26,3 +26,10 @@ pip install -r lintol-requirements.txt
 python setup.py install
 python setup.py develop
 cd ..
+
+git clone https://${GITHUB_TOKEN}:x-oauth-basic@github.com/dkayee/ckanext-medicallybame.git
+cd ckanext-medicallybame
+pip install -r requirements.txt
+python setup.py install
+python setup.py develop
+cd ..
