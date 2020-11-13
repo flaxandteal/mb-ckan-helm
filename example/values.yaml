@@ -19,6 +19,7 @@ ckan-core:
     - datapusher
     # validation
     - oauth2provider
+    - medicallybame
   postgres:
     password: TEST
     dataStoreRoPassword: TEST
